@@ -1,0 +1,117 @@
+[
+    {
+        "company": "27 GLOBAL",
+        "duration": "August 2022 - April 2023",
+        "title": "Senior Developer (Salaried) - Client Solutions on Multiple Industries",
+        "responsibilities": [
+            "Designed and built Azure/.Net/Angular solutions that met business and technical requirements for multiple clients.",
+            "Developed scalable, maintainable, performant systems using technologies such as Azure B2C, Functions, Service Bus,",
+            "Managed offshore teams by providing architectural direction, code reviews and technical guidance thereby ensuring quality",
+            "Developed code assets such as prototypes, and actual initial client solutions using C# in .Net 6/7, Blazor and Angular 12.",
+            "Executed client statements of work by supporting consulting and Cloud Ops teams.",
+            "Maintained excellent client relationships and added value to sales process from a technical standpoint."
+        ]
+    },
+    {
+        "company": "LINK LOGISTICS",
+        "duration": "January 2022 - May 2022",
+        "title": "Senior Microservices Developer (Consultant via Tech Systems) - Cloud on Industrial Real Estate Asset Management",
+        "responsibilities": [
+            "Created C# Azure Functions (Subscriber/publisher) to facilitate data integration and transfer between",
+            "Created services using Azure Search Service/Azure Sql DB/Azure for C# .Net 6 apis for ETL data between external data",
+            "Created or modified various Azure Integration Services of APIM and Service Bus to facilitate data ETL between systems.",
+            "Internal Dashboard Usage Website creation using C# .Net 6 and Blazor.",
+            "Maintained C# Angular Typescript .Net Core management process software with Entity Framework code first methodology",
+            "Maintained C# .Net 4.7 VSTO Excel Smart Document used to handle data validation and report generation tool for data",
+            "Provided roadmap for migration of existing Excel VSTO Task Pane addin to the Office 365 Graph using Node.js",
+            "Prior large project VSTO work done at Janus Capital and Comprehensive 2006 and 2011 respectively.",
+            "Created .Net Core GraphQL webservices prototype for future dynamic query website prototype. Sql Server and user"
+        ]
+    },
+    {
+        "company": "Zephyr Boating",
+        "duration": "October 2019 - May 2020",
+        "title": "Senior Architect Lead Developer (Salaried) - Travel Services",
+        "responsibilities": [
+            "Lead/Architect of offshore developers to create a mobile app on IOS and Android platforms using C# and Xamarin.",
+            "Architected back-end APIs in Azure using Azure SQL Server, Functions, Azure App Service, Azure API Manager using .Net",
+            "Developed security authentication transfer using JWT tokens with Azure Microservice Functions for Login and customer",
+            "Designed and developed C# .Net Core 3.1 Web Services to pass Sql Server generated JSON data mobile phone app and",
+            "Azure Dev-ops administrator to create CI/CD builds and pipelines of projects and their publishing."
+        ]
+    },
+    {
+        "company": "FISERV",
+        "duration": "Sept 2018 - October 2019",
+        "title": "Senior Developer (Consultant via Nesco Resources) - Banking",
+        "responsibilities": [
+            "Developed SMS/Email Notification web service implementation C#/Oracle SQL within existing application",
+            "Azure Micro Service work in Azure Functions to supplement .Net core 2.2 API C# Web Services apis.",
+            "API development in C# to support external calls to SMS and SMTP providers. Oracle SQL dev coding to support"
+        ]
+    },
+    {
+        "company": "PETSMART",
+        "duration": "Jan 2018 - Aug 2018",
+        "title": "Senior Lead Developer Architect (Consultant via Mastech-Infotrellis) 50% Travel - Cloud - Retail",
+        "responsibilities": [
+            "Coordination as Tech Lead between developers and testers to achieve a new Loyalty System (named",
+            "Architected .Net Core 2 C# restful api as an internal gateway using generic operational verbs",
+            "Architected and implemented a system to seamlessly acquire JSON from either store procedures (SQL",
+            "Azure APIM management of four unique APIs with Policies (specific C# code) to handle JSON Web token",
+            "Publishing of API using Open API documentation (referred to as a swagger doc) methods (via Nuget"
+        ]
+    },
+    {
+        "company": "SKYKICK",
+        "duration": "May 2016 - Jan 2018",
+        "title": "Senior Developer Architect (Initial Consultant via Statera & then converted to Salaried Position) - Cloud",
+        "responsibilities": [
+            "Developed Migration SaaS from on-prem to Azure Cloud 0365 SharePoint using C# and in-conjunction PowerShell scripting",
+            "Stored procedure creation on SQL Server Azure to enhance business logic for the differing team projects.",
+            "Created standalone reusable components to access Containers/Blobs/Queues in Azure.",
+            "Web page development of status pages for internal projects using MVC and Angular/Material with C# back end support of",
+            "PowerShell/Python script creation and updates for internal operations for general environment setup and operational"
+        ]
+    },
+    {
+        "company": "JEPPESEN (CMAP / DIGITAL AVIATION / BOEING)",
+        "duration": "July 2014 - May 2016",
+        "title": "Senior Developer Architect (Salaried) - Aerospace",
+        "responsibilities": [
+            "Architected a Data Mining process of Return on Investment (ROI) reporting for Commercial entities using Jeppesen's",
+            "Operations included an Internet as a Service, based within the cloud (Amazon Web Services (AWS)) usage. WCF web",
+            "Supporting software as a service usages and separate report access coding written in C# 6.0 .Net 4.6, Entity Framework 6.1",
+            "SignalR web service operations for cross status communications between disparate operations"
+        ]
+    },
+    {
+        "company": "SCL HEALTH/EXEMPLA-HEALTCARE",
+        "duration": "Jan 2014 - May 2014",
+        "title": "Senior Developer Architect (Consultant via Productive Data Solutions) - Healthcare",
+        "responsibilities": [
+            "Developed and maintained ESecurity an internal user provisioning software website using C# .Net 4.5.1, MVC 5, Entity",
+            "Created new WCF web service using C#, EF 6.1, .Net 4.5.1 and IIS 7.5 for internal HTTPS transactions against multiple",
+            "Architected and developed C# scheduled job to extract differing column CSV Epic based EHS (Electronic Healthcare System)"
+        ]
+    },
+    {
+        "company": "CATHOLIC HEALTH INITIATIVES",
+        "duration": "July 2013 - December 2013",
+        "title": "Senior Developer Architect (Consultant via Gunther Douglas) - Healthcare",
+        "responsibilities": [
+            "Architected and implemented Process Automation application in C# for Claims Balancing in TDD (Test Driven Development)",
+            "Created Asp.Net SPA (Single Page Application) using MVC, HTML 5, Knockout.Js and Durandal to view operations logs for",
+            "Architected and developed C# WPF Script Editor for Meditech 6 commands using Entity Framework against a Sql Server"
+        ]
+    },
+    {
+        "company": "MAPQUEST",
+        "duration": "April 2013 - July 2013",
+        "title": "Senior Mobile Developer Architect (Consultant via Statera) - Cloud",
+        "responsibilities": [
+            "Architected a SQL Server Compact Edition database for use in storing Phone settings and user preferences for use across",
+            "Integration with IOS and Android platforms via web services keeping with current architecture."
+        ]
+    }
+]
