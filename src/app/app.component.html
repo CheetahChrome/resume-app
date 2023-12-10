@@ -9,12 +9,23 @@
     <mat-tab label="Third"> Content 3 </mat-tab>
   </mat-tab-group> -->
 
-  <ul *ngIf="jobs$ | async as jobs; else loading" class="my-4">
+  <!-- <ul *ngIf="jobs$ | async as jobs; else loading" class="my-4">
     <li *ngFor="let job of jobs">
       {{job.company}}
     </li>
-  </ul>
+  </ul> -->
 
+  <mat-tab-group *ngIf="jobs$ | async as jobs; else loading">
+    <mat-tab *ngFor="let job of jobs" [label]="job.company">
+      <p>{{job.title}}</p>
+      <ul *ngIf="job?.responsibilities?.length">
+        <li *ngFor="let task of job.responsibilities">
+          {{task}}
+        </li>
+      </ul>
+    </mat-tab>
+
+  </mat-tab-group>
 
   <ng-template #loading>
     <p class="my-4">Loading&hellip;</p>
