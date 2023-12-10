@@ -20,7 +20,8 @@
       <p>{{job.title}}</p>
       <ul *ngIf="job?.responsibilities?.length">
         <li *ngFor="let task of job.responsibilities">
-          {{task}}
+          <div [innerHTML]="task | boldWords:boldWordsList"></div>
+          <!-- {{task}} -->
         </li>
       </ul>
     </mat-tab>

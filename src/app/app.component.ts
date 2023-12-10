@@ -15,6 +15,15 @@ export class AppComponent implements OnInit {
 
   public jobs$: Observable<Job[] | undefined> = of(undefined);
 
+  public boldWordsList: string[] = ['Angular', 'APIM', 'Azure', 
+                                     'B2C', 'Blazor',
+                                     'C#', 'CSS',
+                                     'Entity Framework',
+                                     'Functions',
+                                     '.Net',
+                                     'Service Bus',
+                                    ];
+
   constructor(private api:GetJobsService) { }
 
 
