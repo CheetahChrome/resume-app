@@ -3,9 +3,22 @@
 <body>
   <mat-slide-toggle>Toggle me!</mat-slide-toggle>
   
-  <mat-tab-group>
+  <!-- <mat-tab-group>
     <mat-tab label="First"> Content 1 </mat-tab>
     <mat-tab label="Second"> Content 2 </mat-tab>
     <mat-tab label="Third"> Content 3 </mat-tab>
-  </mat-tab-group>
+  </mat-tab-group> -->
+
+  <ul *ngIf="jobs$ | async as jobs; else loading" class="my-4">
+    <li *ngFor="let job of jobs">
+      {{job.company}}
+    </li>
+  </ul>
+
+
+  <ng-template #loading>
+    <p class="my-4">Loading&hellip;</p>
+  </ng-template>
+
+
 </body>
