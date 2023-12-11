@@ -22,6 +22,11 @@ export class AppComponent implements OnInit {
                                      'Functions',
                                      '.Net',
                                      'Service Bus',
+                                      'SQL',
+                                     '4',
+                                     '6',
+                                     '7',
+                                     '12'
                                     ];
 
   constructor(private api:GetJobsService) { }
