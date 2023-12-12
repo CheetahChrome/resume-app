@@ -25,7 +25,7 @@
         <mat-card-content>
           <ul *ngIf="job?.responsibilities?.length">
             <li *ngFor="let task of job.responsibilities">
-              <div [innerHTML]="task | boldWords:boldWordsList"></div>
+              <div [innerHTML]="task.responsibilty| boldWords:boldWordsList"></div>
           <!-- {{task}} -->
             </li>
           </ul>       
@@ -38,6 +38,4 @@
   <ng-template #loading>
     <p class="my-4">Loading&hellip;</p>
   </ng-template>
-
-
 </body>

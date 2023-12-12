@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatTabsModule } from '@angular/material/tabs';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import { BoldWordsPipe } from './Pipes/bold-words.pipe';
 
 @NgModule({

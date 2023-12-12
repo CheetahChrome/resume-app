@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
                                      '12'
                                     ];
 
-  constructor(private api:GetJobsService) { }
+  constructor(private api:GetJobsService) { } 
 
 
   public ngOnInit(): void {
