@@ -1,20 +1,8 @@
 
-<h1>{{title}}</h1>
+
+
 <body>
-  <mat-slide-toggle>Toggle me!</mat-slide-toggle>
-  
-  <!-- <mat-tab-group>
-    <mat-tab label="First"> Content 1 </mat-tab>
-    <mat-tab label="Second"> Content 2 </mat-tab>
-    <mat-tab label="Third"> Content 3 </mat-tab>
-  </mat-tab-group> -->
-
-  <!-- <ul *ngIf="jobs$ | async as jobs; else loading" class="my-4">
-    <li *ngFor="let job of jobs">
-      {{job.company}}
-    </li>
-  </ul> -->
-
+  <h1 class="app-title">{{title}}</h1> 
   <mat-tab-group *ngIf="jobs$ | async as jobs; else loading">
     <mat-tab *ngFor="let job of jobs" [label]="job.company">
       <mat-card>
@@ -35,7 +23,36 @@
 
   </mat-tab-group>
 
+  <mat-divider></mat-divider>
+
+  <mat-slide-toggle [(ngModel)]="checked">
+    <div class="center-content">
+      <img class="ang-icon" [src]="iconUrl" alt="icon"/>Only
+    </div>
+  </mat-slide-toggle>
+
+  <mat-card class="link-card" *ngIf="checked">
+    <mat-card-header>
+      <mat-card-title>Angular</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <ul *ngIf="jobs$ | async as jobs; else loading" class="my-4">
+
+          <li *ngFor="let job of jobs | filterTech:techResponsibilities">
+            <div [innerHTML]="job| boldWords:boldWordsList"></div>
+            <!-- {{ job }} -->
+          </li>
+        </ul>
+    </mat-card-content>
+  </mat-card>
+
   <ng-template #loading>
     <p class="my-4">Loading&hellip;</p>
   </ng-template>
-</body>
+
+  <app-footer></app-footer>
+
+
+  </body>
+
+  <!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Ruslan Babkin - Flaticon</a> -->

@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { Observable, of, from, map } from 'rxjs';
 import { Job } from './Interfaces/Company';
 import { GetJobsService } from './Services/get-jobs.service';
+import { TechStack } from './Interfaces/Company';
+import { JobDescription } from './Interfaces/Company';
 
 @Component({
   selector: 'app-root',
@@ -11,29 +13,30 @@ import { GetJobsService } from './Services/get-jobs.service';
 
 
 export class AppComponent implements OnInit {
-  title = 'resume-app';
-
+  title = 'Wegerson-Resume-App';
+  public checked = false;
   public jobs$: Observable<Job[] | undefined> = of(undefined);
+  public techResponsibilities : TechStack[] = [];
+  public angularItems$: Observable<JobDescription[] | undefined> = of(undefined);
+  public iconUrl = 'assets/images/ng-logo.svg';
 
-  public boldWordsList: string[] = ['Angular', 'APIM', 'Azure', 
-                                     'B2C', 'Blazor',
-                                     'C#', 'CSS',
-                                     'Entity Framework',
-                                     'Functions',
-                                     '.Net',
-                                     'Service Bus',
-                                      'SQL',
-                                     '4',
-                                     '6',
-                                     '7',
-                                     '12'
-                                    ];
+  // These words from the enum will be bolded.
+  public boldWordsList: string[] = Object.values(TechStack);
+
+  // public boldWordsList: string[] = ['Angular', 'APIM', 'Azure' ];
 
   constructor(private api:GetJobsService) { } 
 
 
   public ngOnInit(): void {
     this.jobs$ = this.api.getAllJobs$();
-  }
+
+    this.techResponsibilities = [ TechStack.Angular ];
+    // // check if jobs$ is undefined
+    // if (this.jobs$ === undefined) {
+    //   return;
+    // }
+
+    }
 
 }
