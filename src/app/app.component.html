@@ -2,27 +2,31 @@
 
 
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My App</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <h1 class="app-title">{{title}}</h1> 
-  <mat-tab-group *ngIf="jobs$ | async as jobs; else loading">
-    <mat-tab *ngFor="let job of jobs" [label]="job.company">
-      <mat-card>
-        <mat-card-header>
-          <mat-card-title>{{job.title}}</mat-card-title>
-          <mat-card-subtitle>{{job.duration}}</mat-card-subtitle>
-        </mat-card-header>
-        <mat-card-content>
-          <ul *ngIf="job?.responsibilities?.length">
-            <li *ngFor="let task of job.responsibilities">
-              <div [innerHTML]="task.responsibilty| boldWords:boldWordsList"></div>
-          <!-- {{task}} -->
-            </li>
-          </ul>       
-        </mat-card-content>
-      </mat-card>
-    </mat-tab>
-
-  </mat-tab-group>
-
+  <app-job-carousel></app-job-carousel>
   <mat-divider></mat-divider>
 
   <mat-slide-toggle [(ngModel)]="checked">
