@@ -35,7 +35,8 @@
     </div>
   </mat-slide-toggle>
 
-  <mat-card class="link-card" *ngIf="checked">
+  <app-tech-focus *ngIf="checked" [techResponsibilities] = techResponsibilities [jobs$]="jobs$"></app-tech-focus>
+  <!-- <mat-card class="link-card" *ngIf="checked">
     <mat-card-header>
       <mat-card-title>Angular</mat-card-title>
     </mat-card-header>
@@ -44,11 +45,10 @@
 
           <li *ngFor="let job of jobs | filterTech:techResponsibilities">
             <div [innerHTML]="job| boldWords:boldWordsList"></div>
-            <!-- {{ job }} -->
           </li>
         </ul>
     </mat-card-content>
-  </mat-card>
+  </mat-card> -->
 
   <ng-template #loading>
     <p class="my-4">Loading&hellip;</p>

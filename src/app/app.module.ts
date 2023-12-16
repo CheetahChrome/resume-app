@@ -16,6 +16,7 @@ import { BoldWordsPipe } from './Pipes/bold-words.pipe';
 import { FilterTechPipe } from './Pipes/filter-tech.pipe';
 import { FooterComponent } from './Components/footer/footer.component';
 import { JobCarouselComponent } from './Components/job-carousel/job-carousel.component';
+import { TechFocusComponent } from './Components/tech-focus/tech-focus.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { JobCarouselComponent } from './Components/job-carousel/job-carousel.com
     BoldWordsPipe,
     FilterTechPipe,
     FooterComponent,
-    JobCarouselComponent
+    JobCarouselComponent,
+    TechFocusComponent
   ],
   imports: [
     AppRoutingModule,

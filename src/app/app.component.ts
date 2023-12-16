@@ -4,6 +4,7 @@ import { Job } from './Interfaces/Company';
 import { GetJobsService } from './Services/get-jobs.service';
 import { TechStack } from './Interfaces/Company';
 import { JobDescription } from './Interfaces/Company';
+import { TechFocusComponent } from './Components/tech-focus/tech-focus.component';
 
 @Component({
   selector: 'app-root',
@@ -26,7 +27,6 @@ export class AppComponent implements OnInit {
   // public boldWordsList: string[] = ['Angular', 'APIM', 'Azure' ];
 
   constructor(private api:GetJobsService) { } 
-
 
   public ngOnInit(): void {
     this.jobs$ = this.api.getAllJobs$();
