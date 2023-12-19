@@ -19,8 +19,9 @@ export class AppComponent implements OnInit {
   public jobs$: Observable<Job[] | undefined> = of(undefined);
   public techResponsibilities : TechStack[] = [];
   public angularItems$: Observable<JobDescription[] | undefined> = of(undefined);
-  public iconUrl = 'assets/images/ng-logo.svg';
-
+  public angularIconUrl = 'assets/images/ng-logo.svg';
+  //public b2cIconUrl = 'assets/images/b2c.svg';
+  public csharIconUrl = 'assets/images/csharp.svg';
   // These words from the enum will be bolded.
   public boldWordsList: string[] = Object.values(TechStack);
 
@@ -31,7 +32,7 @@ export class AppComponent implements OnInit {
   public ngOnInit(): void {
     this.jobs$ = this.api.getAllJobs$();
 
-    this.techResponsibilities = [ TechStack.Angular ];
+    this.techResponsibilities = [ TechStack.Angular, TechStack.B2C ];
     // // check if jobs$ is undefined
     // if (this.jobs$ === undefined) {
     //   return;

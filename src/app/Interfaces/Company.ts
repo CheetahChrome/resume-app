@@ -19,7 +19,6 @@ export enum TechStack {
     CSV = "CSV",
     DataFactory = "Data Factory",
     DevOps = "DevOps",
-    Durandal = "Durandal",
     EntityFramework = "Entity Framework",
     EpicEHS = "Epic based EHS (Electronic Healthcare System)",
     Functions = "Functions",
