@@ -21,6 +21,7 @@ import { AboutComponent } from './Pages/about/about.component';
 import { ResumeComponent } from './Pages/resume/resume.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
