@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, of, from, map } from 'rxjs';
 import { Job } from '../../Interfaces/Company';
-import { GetJobsService } from '../../Services/get-jobs.service';
+import { GetJobsService } from '../../Services/get-jobs/get-jobs.service';
 import { TechStack } from '../../Interfaces/Company';
 import { JobDescription } from '../../Interfaces/Company';
 import { TechFocusComponent } from '../../Components/tech-focus/tech-focus.component';
