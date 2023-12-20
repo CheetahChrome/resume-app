@@ -12,7 +12,6 @@ import { TechFocusComponent } from '../../Components/tech-focus/tech-focus.compo
   styleUrls: ['./resume.component.css']
 })
 export class ResumeComponent implements OnInit {
-  title = 'Wegerson-Resume-App';
 
   public checked = false;
   public jobs$: Observable<Job[] | undefined> = of(undefined);
