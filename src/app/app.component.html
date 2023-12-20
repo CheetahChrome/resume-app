@@ -25,17 +25,7 @@
     </div>
   </nav>
 
-  <h1 class="app-title">{{title}}</h1> 
-  <app-job-carousel></app-job-carousel>
-  <mat-divider></mat-divider>
 
-  <mat-slide-toggle [(ngModel)]="checked">
-    <div class="center-content">
-      <img class="ang-icon" [src]="angularIconUrl" alt="icon"/>Only
-    </div>
-  </mat-slide-toggle>
-
-  <app-tech-focus *ngIf="checked" [techResponsibilities] = techResponsibilities [jobs$]="jobs$"></app-tech-focus>
   <!-- <mat-card class="link-card" *ngIf="checked">
     <mat-card-header>
       <mat-card-title>Angular</mat-card-title>
@@ -50,13 +40,13 @@
     </mat-card-content>
   </mat-card> -->
 
-  <ng-template #loading>
-    <p class="my-4">Loading&hellip;</p>
-  </ng-template>
 
+
+  <router-outlet></router-outlet>
+  
   <app-footer></app-footer>
-
-
-  </body>
+  
+  
+</body>
 
   <!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Ruslan Babkin - Flaticon</a> -->

@@ -17,6 +17,9 @@ import { FilterTechPipe } from './Pipes/filter-tech.pipe';
 import { FooterComponent } from './Components/footer/footer.component';
 import { JobCarouselComponent } from './Components/job-carousel/job-carousel.component';
 import { TechFocusComponent } from './Components/tech-focus/tech-focus.component';
+import { AboutComponent } from './Pages/about/about.component';
+import { ResumeComponent } from './Pages/resume/resume.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,9 @@ import { TechFocusComponent } from './Components/tech-focus/tech-focus.component
     FilterTechPipe,
     FooterComponent,
     JobCarouselComponent,
-    TechFocusComponent
+    TechFocusComponent,
+    AboutComponent,
+    ResumeComponent
   ],
   imports: [
     AppRoutingModule,
