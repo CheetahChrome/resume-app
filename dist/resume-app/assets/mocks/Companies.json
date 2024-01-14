@@ -3,10 +3,10 @@
     "company": "Open Dealer Exchange",
     "duration": "August 2023 - December 2023",
     "title": "Senior Developer (Contract) - Financial Services",
-    "techstack": [ "C#", "Azure", "Angular", "Blazor", ".Net", "Azure B2C" ],
+    "techstack": [ "C#", "Azure", "Angular", "Blazor", ".Net", "B2C" ],
     "responsibilities": [
       {
-        "techstack": [ "Azure B2C" ],
+        "techstack": [ "B2C" ],
         "responsibilty": "Configured Azure Active Directory B2C to provide secure authentication and authorization of external users for multiple web applications."
       },
       {
@@ -18,7 +18,7 @@
         "responsibilty": "Creation of Web Services API and consumption using C# .Net 6 clients using authentication and authorization with use of JWT tokens"
       },
       {
-        "techstack": [ "DevOps", "Terraform" ],
+        "techstack": [ "DevOps", "Terraform", "B2C" ],
         "responsibilty": "Modification of Terraform scripts to adjust to B2C access requirements over multiple apps and functions. "
       },
       {
@@ -31,14 +31,14 @@
     "company": "27 GLOBAL",
     "duration": "August 2022 - April 2023",
     "title": "Solutions Architet & Developer (Salaried) - Client Solutions on Multiple Industries",
-    "techstack": [ "C#", "Azure", "Angular", "Blazor", ".Net", "Azure B2C", "Functions", "Service Bus" ],
+    "techstack": [ "C#", "Azure", "Angular", "Blazor", ".Net", "B2C", "Functions", "Service Bus" ],
     "responsibilities": [
       {
         "techstack": [ "Angular", "C#", "SOA" ],
         "responsibilty": "Designed Azure, .Net, Angular Service-Orientated Architecture (SOA) solutions that met business and technical requirements for multiple clients."
       },
       {
-        "techstack": [ "Azure B2C", "Functions", "Service Bus", "DataFactory" ],
+        "techstack": [ "B2C", "Functions", "Service Bus", "DataFactory" ],
         "responsibilty": "Developed scalable, maintainable, performant services using technologies which interacted with APIs, Azure B2C, Azure Functions, Service Bus, DataFactory and Azure SQL (SQL Server) database."
       },
       {
