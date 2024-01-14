@@ -21,7 +21,4 @@ export class TechFocusComponent
 
     constructor() {   }
 
-
-
-
 }

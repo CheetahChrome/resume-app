@@ -1,0 +1,25 @@
+<section class="bottom-section" >
+
+    <section style="display: flex;">
+      <div style="flex: 2;">
+        <img [src]="angularIconUrl" alt="Angular" class="img-size-20x20" />
+        <mat-slide-toggle [(ngModel)]="angularChecked"></mat-slide-toggle>
+      </div>
+  
+      <div style="flex: 2; margin-left: 10px;">
+        <img [src]="azureIconUrl" alt="Azure" class="img-size-20x20" />
+        <mat-slide-toggle [(ngModel)]="azureChecked"></mat-slide-toggle>
+      </div>
+    </section>
+  
+    <section style="display: flex;">
+      <div style="flex: 2;">
+        <app-tech-focus *ngIf="angularChecked" [techResponsibilities]="angularTechResponsibilities"
+          [jobs$]="jobs$"></app-tech-focus>
+      </div>
+      <div style="flex: 2; margin-left: 10px;">
+        <app-tech-focus *ngIf="azureChecked" [techResponsibilities]="azureTechResponsibilities"
+          [jobs$]="jobs$"></app-tech-focus>
+      </div>
+    </section>
+  </section>

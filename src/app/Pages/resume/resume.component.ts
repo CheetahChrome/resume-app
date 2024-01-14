@@ -13,11 +13,11 @@ import { TechFocusComponent } from '../../Components/tech-focus/tech-focus.compo
 })
 export class ResumeComponent implements OnInit {
 
-  public checked = false;
+
   public jobs$: Observable<Job[] | undefined> = of(undefined);
-  public techResponsibilities : TechStack[] = [];
-  public angularItems$: Observable<JobDescription[] | undefined> = of(undefined);
-  public angularIconUrl = 'assets/images/ng-logo.svg';
+
+  //public angularItems$: Observable<JobDescription[] | undefined> = of(undefined);
+
   //public b2cIconUrl = 'assets/images/b2c.svg';
   public csharIconUrl = 'assets/images/csharp.svg';
   // These words from the enum will be bolded.
@@ -30,7 +30,7 @@ export class ResumeComponent implements OnInit {
   public ngOnInit(): void {
     this.jobs$ = this.api.getAllJobs$();
 
-    this.techResponsibilities = [ TechStack.Angular, TechStack.B2C ];
+
     // // check if jobs$ is undefined
     // if (this.jobs$ === undefined) {
     //   return;

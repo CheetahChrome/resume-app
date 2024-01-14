@@ -19,6 +19,7 @@ import { JobCarouselComponent } from './Components/job-carousel/job-carousel.com
 import { TechFocusComponent } from './Components/tech-focus/tech-focus.component';
 import { AboutComponent } from './Pages/about/about.component';
 import { ResumeComponent } from './Pages/resume/resume.component';
+import { TechFocusSectionComponent } from './Components/tech-focus-section/tech-focus-section.component';
 
 
 
@@ -31,7 +32,8 @@ import { ResumeComponent } from './Pages/resume/resume.component';
     JobCarouselComponent,
     TechFocusComponent,
     AboutComponent,
-    ResumeComponent
+    ResumeComponent,
+    TechFocusSectionComponent
   ],
   imports: [
     AppRoutingModule,

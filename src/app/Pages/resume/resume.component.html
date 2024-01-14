@@ -1,15 +1,11 @@
 
-<app-job-carousel></app-job-carousel>
-<mat-divider></mat-divider>
+<section class="top-section">
+  <app-job-carousel></app-job-carousel>
+</section>
 
-<mat-slide-toggle [(ngModel)]="checked">
-  <div class="center-content">
-    <img class="ang-icon" [src]="angularIconUrl" alt="icon"/>Only
-  </div>
-</mat-slide-toggle>
-
-<app-tech-focus *ngIf="checked" [techResponsibilities] = techResponsibilities [jobs$]="jobs$"></app-tech-focus>
-
+<section class="bottom-section">
+  <app-tech-focus-section></app-tech-focus-section>
 <ng-template #loading>
+  
     <p class="my-4">Loading&hellip;</p>
 </ng-template>
