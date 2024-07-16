@@ -23,6 +23,7 @@ export enum TechStack {
     EpicEHS = "Epic based EHS (Electronic Healthcare System)",
     Functions = "Functions",
     GraphQL = "GraphQL",
+    Greenfiled = "Greenfield",
     HTTPS = "HTTPS",
     IIS = "IIS",
     IOS = "IOS",

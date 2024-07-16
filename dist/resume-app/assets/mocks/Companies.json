@@ -6,20 +6,16 @@
     "techstack": [ "C#", "Azure", "Angular", "Blazor", ".Net", "B2C" ],
     "responsibilities": [
       {
-        "techstack": [ "B2C" ],
-        "responsibilty": "Configured Azure Active Directory B2C to provide secure authentication and authorization of external users for multiple web applications."
+        "techstack": [ "B2C", "Angular", "Greenfield" ],
+        "responsibilty": "Stood up and configured Microsoft Entra Greenfield Angular based application to be hosted in Azure to provide secure authentication and authorization of external consumers."
       },
       {
-        "techstack": [ "C#", ".Net", "Blazor" ],
-        "responsibilty": "Developed front end Blazor components using C# .Net 6 to enchance user experience."
+        "techstack": [ "C#", ".Net", "Angular", "Azure" ],
+        "responsibilty": "Customized Azure B2C policies to meet the needs of the business and integrated them into the Angular front end and C# .Net back end."
       },
       {
         "techstack": [ "C#", ".Net", "WebService" ],
         "responsibilty": "Creation of Web Services API and consumption using C# .Net 6 clients using authentication and authorization with use of JWT tokens"
-      },
-      {
-        "techstack": [ "DevOps", "Terraform", "B2C" ],
-        "responsibilty": "Modification of Terraform scripts to adjust to B2C access requirements over multiple apps and functions. "
       },
       {
         "techstack": [ "BusinessIntelligence" ],
@@ -207,12 +203,13 @@
         "responsibilty": "Created standalone reusable components to access Azure Containers, Blobs, and Queues."
       },
       {
-        "techstack": [ "C#", "MVC", "Angular" ],
-        "responsibilty": "Web page development of status pages for internal projects using MVC and Angular 1.52 with C# back end support of Rest web services"
+        "techstack": [ "C#", "Angular" ],
+        "responsibilty": "Web page development of status pages for internal projects using Angular 1.52 with C# back end support with Rest web services"
       }
     ]
   },
   {
+    "companyId" : 1,
     "company": "JEPPESEN (CMAP / DIGITAL AVIATION / BOEING)",
     "duration": "July 2014 - May 2016",
     "title": "Senior Developer Architect (Salaried) - Aerospace",
