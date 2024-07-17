@@ -1,43 +1,57 @@
 export enum TechStack {
     Angular = "Angular",
+    Android = "Android",
     APIM = "APIM",
+    API = "API",
     AspNetSPA = "Asp.Net SPA (Single Page Application)",
     AWS = "Amazon Web Services (AWS)",
-    Azure = "Azure",
     AzureAPIManager = "Azure API Manager",
     AzureAppService = "Azure App Service",
     AzureSearchService = "Azure Search Service",    
     AzureB2C = "Azure B2C",
+    Azure = "Azure",
+    
     AzureSQLServer = "Azure SQL Server",
     B2C = "B2C",
     Blazor = "Blazor",
+    BusinessIntelligence = "Business Intelligence",
     CSharp = "C#",
     CSV = "CSV",
-    Durandal = "Durandal",
+    DataFactory = "Data Factory",
+    DevOps = "DevOps",
     EntityFramework = "Entity Framework",
     EpicEHS = "Epic based EHS (Electronic Healthcare System)",
     Functions = "Functions",
+    GraphQL = "GraphQL",
+    Greenfiled = "Greenfield",
     HTTPS = "HTTPS",
     IIS = "IIS",
     IOS = "IOS",
     JavaScript = "JavaScript",
     JSON = "JSON",
-    JWT = "JWT tokens",
+    JWT = "JWT",
     KnockoutJs = "Knockout.Js",
     Material = "Material",
     MVC = "MVC",
-    Net = ".Net",
     NetCore = ".Net Core",
+    Net = ".Net",
     OracleSQL = "Oracle SQL",
+    Oracle = "Oracle",
     PowerShell = "PowerShell",
     Python = "Python",
     ServiceBus = "Service Bus",
     SignalR = "SignalR",
+    SOA = "SOA",
+    SMS = "SMS",
     SQL = "SQL",
+    SQLServer = "SQL Server",    
     SQLServerAzure = "SQL Server Azure",
     SQLServerCompactEdition = "SQL Server Compact Edition",
-    TDD = "TDD (Test Driven Development)",
+    TDD = "TDD",
+    Terraform = "Terraform",
     TypeScript = "TypeScript",
+    VSTO = "VSTO",
+    WebServices = "Web Services",
     WCF = "WCF",
     Xamarin = "Xamarin"
 }
@@ -52,8 +66,8 @@ export enum TechStack {
 
 export interface JobDescription
 {
-responsibilty: string;
-  techstack: TechStack[];
+    responsibilty: string;
+    techstack: TechStack[];
 }
 
 export interface Job {

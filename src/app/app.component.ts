@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, of } from 'rxjs';
-import { Job } from './Interfaces/Company';
-import { GetJobsService } from './Services/get-jobs.service';
+import { LocalService } from './Services/local/local.service';
+
+
 
 @Component({
   selector: 'app-root',
@@ -10,30 +10,19 @@ import { GetJobsService } from './Services/get-jobs.service';
 })
 
 
-export class AppComponent implements OnInit {
-  title = 'resume-app';
+export class AppComponent  {
+  title = 'Wegerson-Resume-App';
 
-  public jobs$: Observable<Job[] | undefined> = of(undefined);
 
-  public boldWordsList: string[] = ['Angular', 'APIM', 'Azure', 
-                                     'B2C', 'Blazor',
-                                     'C#', 'CSS',
-                                     'Entity Framework',
-                                     'Functions',
-                                     '.Net',
-                                     'Service Bus',
-                                      'SQL',
-                                     '4',
-                                     '6',
-                                     '7',
-                                     '12'
-                                    ];
+  constructor(private local:LocalService) {
 
-  constructor(private api:GetJobsService) { } 
-
+   }
 
   public ngOnInit(): void {
-    this.jobs$ = this.api.getAllJobs$();
+    this.local.saveData('name', 'Wegerson');
+    this.local.saveData('age', '32');
+    this.local.saveData('email', 'Test@Jabberwocky.cloud');
+
   }
 
 }
