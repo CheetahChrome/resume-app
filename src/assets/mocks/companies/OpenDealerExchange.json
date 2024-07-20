@@ -1,0 +1,49 @@
+{
+  "companyId": 9,
+  "id" : "ODE.9",
+  "company": "Open Dealer Exchange",
+  "duration": "August 2023 - December 2023",
+  "partitionKey": "Contract",
+  "title": "Senior Developer (Contract) - Financial Services",
+  "techstack": [
+    "C#",
+    "Azure",
+    "Angular",
+    "Blazor",
+    ".Net",
+    "B2C"
+  ],
+  "responsibilities": [
+    {
+      "techstack": [
+        "B2C",
+        "Angular",
+        "Greenfield"
+      ],
+      "responsibilty": "Stood up and configured Microsoft Entra Greenfield Angular based application to be hosted in Azure to provide secure authentication and authorization of external consumers."
+    },
+    {
+      "techstack": [
+        "C#",
+        ".Net",
+        "Angular",
+        "Azure"
+      ],
+      "responsibilty": "Customized Azure B2C policies to meet the needs of the business and integrated them into the Angular front end and C# .Net back end."
+    },
+    {
+      "techstack": [
+        "C#",
+        ".Net",
+        "WebService"
+      ],
+      "responsibilty": "Creation of Web Services API and consumption using C# .Net 6 clients using authentication and authorization with use of JWT tokens"
+    },
+    {
+      "techstack": [
+        "BusinessIntelligence"
+      ],
+      "responsibilty": "Received positive feedback from stakeholders and management for clear and effective communication throughout the project lifecycle."
+    }
+  ]
+}

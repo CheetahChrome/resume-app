@@ -1,0 +1,50 @@
+{
+  "companyId": 6,
+  "company": "Huron Consulting Group",
+  "id" : "Huron.6",
+  "partitionKey": "Contract",
+  "duration": "July 2020 - November 2021",
+  "title": "Senior Developer (Salaried) - Travel Services",
+  "techstack": [
+    "C#",
+    "Xamarin",
+    "Azure",
+    "Azure Search Service",
+    "Angular",
+    "Blazor",
+    ".Net",
+    "Azure B2C",
+    "Functions",
+    "Service Bus"
+  ],
+  "responsibilities": [
+    {
+      "techstack": [
+        "C#",
+        ".Net",
+        "Angular",
+        "TypeScript",
+        "EntityFramework"
+      ],
+      "responsibilty": "Managed software for C#, Angular, TypeScript, and .Net Core management processes, implementing a code-first methodology using Entity Framework for database modeling."
+    },
+    {
+      "techstack": [
+        ".Net Core",
+        "C#",
+        "GraphQL",
+        "Sql Server",
+        "JSON",
+        "API"
+      ],
+      "responsibilty": "Created .Net Core GraphQL webservices prototype for future dynamic query website prototype. Applied stored procedures in Sql Server with defined table-types returned as JSON for immediate consumptions by API and aps"
+    },
+    {
+      "techstack": [
+        "C#",
+        ".Net"
+      ],
+      "responsibilty": "Provided code updates and new features to existing C# .Net application."
+    }
+  ]
+}

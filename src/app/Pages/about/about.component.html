@@ -1,1 +1,40 @@
-<p>about works!</p>
+<h3>About</h3>
+
+<div *ngIf="config$ | async as config; else loading">
+    <!-- Use config object here -->
+    <table style="border-collapse: collapse; width: 100%;">
+        <tr>
+            <td style="text-align: center;"><div style="background-color: green; color: white; padding: 5px;">Active</div></td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>Cosmos URL:</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{ config.cosmosUrl }}</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><div style="background-color: green; color: white; padding: 5px;">Active</div></td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>Cosmos Key:</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{ config.cosmosKey }}</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><div style="background-color: green; color: white; padding: 5px;">Active</div></td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>Cosmos Database:</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{ config.cosmosDb }}</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;"><div style="background-color: green; color: white; padding: 5px;">Active</div></td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>Cosmos Container:</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{ config.cosmosContainer }}</td>
+        </tr>
+    </table>
+    <!-- Display other properties as needed -->
+</div>
+
+<ng-template #loading>
+    <p>Loading &hellip;</p>
+</ng-template>

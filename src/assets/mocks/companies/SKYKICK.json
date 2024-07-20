@@ -1,0 +1,49 @@
+{
+  "companyId": 2,
+  "company": "SKYKICK",
+  "id" : "SkyKick.2",
+  "partitionKey": "Salary",
+  "duration": "May 2016 - Jan 2018",
+  "title": "Senior Developer Architect (Initial Consultant via Statera & then converted to Salaried Position) - Cloud",
+  "techstack": [
+    "C#",
+    "Azure",
+    "Azure Search Service",
+    "Angular",
+    "Blazor",
+    ".Net",
+    "Azure B2C",
+    "Functions",
+    "Service Bus"
+  ],
+  "responsibilities": [
+    {
+      "techstack": [
+        "C#",
+        "BusinessIntelligence"
+      ],
+      "responsibilty": "Developed Migration SaaS from on-prem to Azure Cloud 0365 SharePoint using C# and in-conjunction PowerShell scripting."
+    },
+    {
+      "techstack": [
+        "C#",
+        "Sql Server"
+      ],
+      "responsibilty": "Stored procedure creation on Sql Server Azure to enhance business logic for the differing team projects."
+    },
+    {
+      "techstack": [
+        "C#",
+        "Azure"
+      ],
+      "responsibilty": "Created standalone reusable components to access Azure Containers, Blobs, and Queues."
+    },
+    {
+      "techstack": [
+        "C#",
+        "Angular"
+      ],
+      "responsibilty": "Web page development of status pages for internal projects using Angular 1.52 with C# back end support with Rest web services"
+    }
+  ]
+}

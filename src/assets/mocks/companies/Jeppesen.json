@@ -1,0 +1,46 @@
+{
+  "companyId": 1,
+  "company": "JEPPESEN (CMAP / DIGITAL AVIATION / BOEING)",
+  "id" : "Jeppesen.1",
+  "partitionKey": "Salary",
+  "duration": "July 2014 - May 2016",
+  "title": "Senior Developer Architect (Salaried) - Aerospace",
+  "techstack": [
+    "C#",
+    "AWS",
+    "Azure Search Service",
+    ".Net"
+  ],
+  "responsibilities": [
+    {
+      "techstack": [
+        "C#",
+        "BusinessIntelligence"
+      ],
+      "responsibilty": "Architected a Data Mining process of Return on Investment (ROI) reporting for Commercial entities using Jeppesen's"
+    },
+    {
+      "techstack": [
+        "C#",
+        "BusinessIntelligence",
+        "AWS"
+      ],
+      "responsibilty": "Operations included an Internet as a Service, based within the cloud (Amazon Web Services (AWS)) usage. WCF web"
+    },
+    {
+      "techstack": [
+        "C#",
+        ".Net",
+        "EntityFramework"
+      ],
+      "responsibilty": "Supporting software as a service usages and separate report access coding written in C# 6.0 .Net 4.6, Entity Framework 6.1"
+    },
+    {
+      "techstack": [
+        "C#",
+        "SignalR"
+      ],
+      "responsibilty": "SignalR web service operations for cross status communications between disparate operations"
+    }
+  ]
+}

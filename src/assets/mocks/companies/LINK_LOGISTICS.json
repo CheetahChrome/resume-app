@@ -1,0 +1,55 @@
+{
+  "companyId": 7,
+  "company": "LINK LOGISTICS",
+  "id" : "LinkLogistics.7",
+  "partitionKey": "Contract",
+  "duration": "January 2022 - May 2022",
+  "title": "Senior Microservices Developer (Consultant via Tech Systems) - Industrial Real Estate Asset Management",
+  "techstack": [
+    "C#",
+    "Functions",
+    "Azure",
+    "Azure Search Service",
+    "Angular",
+    "Blazor",
+    ".Net",
+    "Azure B2C",
+    "Functions",
+    "Service Bus"
+  ],
+  "responsibilities": [
+    {
+      "techstack": [
+        "Angular"
+      ],
+      "responsibilty": "Creation of Angular 12 Components to provide a responsive user interface experiences in differing apps."
+    },
+    {
+      "techstack": [
+        "C#",
+        "Azure",
+        "Functions"
+      ],
+      "responsibilty": "Created C# Azure Functions (Subscriber/publisher) to facilitate data integration and transfer between components."
+    },
+    {
+      "techstack": [
+        "C#",
+        ".Net",
+        "AzureSQLServer",
+        "AzureSearchService"
+      ],
+      "responsibilty": "Created services using Azure Search Service in conjunction with Azure Sql DB for C# .Net 6 API for ETL data between external data systems."
+    },
+    {
+      "techstack": [
+        "Angular",
+        "C#",
+        ".Net",
+        "Typescript",
+        "EntityFramework"
+      ],
+      "responsibilty": "Managed software utilizing C#, Angular, TypeScript, and .Net Core, following an Entity Framework code-first methodology."
+    }
+  ]
+}
