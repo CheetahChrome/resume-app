@@ -1,0 +1,56 @@
+{
+  "companyId": 3,
+  "company": "PETSMART",
+  "id" : "Petsmart.3",
+  "partitionKey": "Contract",
+  "duration": "Jan 2018 - Aug 2018",
+  "title": "Senior Lead Developer Architect (Consultant via Mastech-Infotrellis) 50% Travel - Cloud - Retail",
+  "techstack": [
+    "C#",
+    "Azure",
+    ".Net"
+  ],
+  "responsibilities": [
+    {
+      "techstack": [
+        "Azure"
+      ],
+      "responsibilty": "Coordination as Tech Lead between developers and testers to greenfield a Loyalty System (named Treats) to be based in the Microsoft Azure Cloud."
+    },
+    {
+      "techstack": [
+        "C#",
+        "API"
+      ],
+      "responsibilty": "Architected .Net Core 2 C# restful api as an internal api with back end Azure SQL database processing."
+    },
+    {
+      "techstack": [
+        "C#",
+        "JSON",
+        "Sql Server",
+        "Entity Framework",
+        ".Net"
+      ],
+      "responsibilty": "Architected and implemented a system to seamlessly acquire JSON from either store procedures (Sql Server JSON) or as needed .Net Core Entity Framework."
+    },
+    {
+      "techstack": [
+        "APIM",
+        "C#",
+        "JWT"
+      ],
+      "responsibilty": "Azure APIM management of four unique APIs with Policies (specific C# code) to handle JSON Web token (JWT) processing as needed and individual endpoint policies where required."
+    },
+    {
+      "techstack": [
+        "C#",
+        "API",
+        "AZURE",
+        "APIM",
+        "NUGET"
+      ],
+      "responsibilty": "Publishing of API using Open API documentation (referred to as a swagger doc) methods (via Nuget SwashBuckle) in active Swagger document. Storing and defining swagger document in Swaggerhub using the system where there is a main generic Document to multiple APIs; creating multiple API endpoints to publish into Azure"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "companyId": 8,
+  "company": "27 GLOBAL",
+  "id" : "TwentySevenGlobal.8",
+  "partitionKey": "Salary",
+  "duration": "August 2022 - April 2023",
+  "title": "Solutions Architet & Developer (Salaried) - Client Solutions on Multiple Industries",
+  "techstack": [
+    "C#",
+    "Azure",
+    "Angular",
+    "Blazor",
+    ".Net",
+    "B2C",
+    "Functions",
+    "Service Bus"
+  ],
+  "responsibilities": [
+    {
+      "techstack": [
+        "Angular",
+        "C#",
+        "SOA"
+      ],
+      "responsibilty": "Designed Azure, .Net, Angular Service-Orientated Architecture (SOA) solutions that met business and technical requirements for multiple clients."
+    },
+    {
+      "techstack": [
+        "B2C",
+        "Functions",
+        "Service Bus",
+        "DataFactory"
+      ],
+      "responsibilty": "Developed scalable, maintainable, performant services using technologies which interacted with APIs, Azure B2C, Azure Functions, Service Bus, DataFactory and Azure SQL (SQL Server) database."
+    },
+    {
+      "techstack": [
+        "BusinessIntelligence"
+      ],
+      "responsibilty": "Managed offshore teams by providing architectural direction, code reviews and technical guidance thereby ensuring quality"
+    },
+    {
+      "techstack": [
+        "BusinessIntelligence",
+        "C#",
+        ".Net",
+        "Angular",
+        "Blazor",
+        "Azure"
+      ],
+      "responsibilty": "Developed code assets for hand off to offshore developers using C# in .Net Core, Angular 15 and Blazor for high quality, robust, and scalable web applications in the Azure cloud."
+    },
+    {
+      "techstack": [
+        "DevOps"
+      ],
+      "responsibilty": "Executed client statements of work by supporting consulting and Cloud DevOps team."
+    },
+    {
+      "techstack": [
+        "BusinessIntelligence"
+      ],
+      "responsibilty": "Maintained excellent client relationships and added value to sales process from a technical standpoint."
+    },
+    {
+      "techstack": [
+        "BusinessIntelligence"
+      ],
+      "responsibilty": "Played a pivotal role in aligning technology solutions with client business goals, contributing to the overall success of the projects."
+    }
+  ]
+}

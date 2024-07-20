@@ -1,0 +1,40 @@
+{
+  "companyId": 4,
+  "company": "FISERV",
+  "id" : "Fiserv.4",
+  "partitionKey": "Contract",
+  "duration": "Sept 2018 - October 2019",
+  "title": "Senior Developer (Consultant via Nesco Resources) - Banking",
+  "techstack": [
+    "C#",
+    "Oracle"
+  ],
+  "responsibilities": [
+    {
+      "techstack": [
+        "C#",
+        "SMS",
+        "Oracle",
+        "SQL"
+      ],
+      "responsibilty": "Developed SMS & Email Notification web service implementation C# and Oracle SQL within existing application behind GraphQL api front end."
+    },
+    {
+      "techstack": [
+        "C#",
+        "Web Service",
+        "API"
+      ],
+      "responsibilty": "Azure Micro Service work in Azure Functions to supplement .Net core 2.2 API C# Web Services apis."
+    },
+    {
+      "techstack": [
+        "C#",
+        "API",
+        "Oracle",
+        "SMS"
+      ],
+      "responsibilty": "API development in C# to support external calls to SMS and SMTP providers. Oracle SQL dev coding to support and new SMS operations via Syniverse provisioned long codes text messaging."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "companyId": 5,
+  "company": "Zephyr Boating",
+  "id" : "Zephyr.5",
+  "partitionKey": "Salary",
+  "duration": "October 2019 - May 2020",
+  "title": "Senior Architect Lead Developer (Salaried) - Travel Services",
+  "techstack": [
+    "C#",
+    "Xamarin",
+    "Azure",
+    "Blazor",
+    ".Net"
+  ],
+  "responsibilities": [
+    {
+      "techstack": [
+        "C#",
+        "IOS",
+        "Android"
+      ],
+      "responsibilty": "Lead/Architect of offshore developers to create a mobile app on IOS and Android platforms using C# and Xamarin."
+    },
+    {
+      "techstack": [
+        "C#",
+        "Functions",
+        "Azure",
+        "Azure Sql Server",
+        ".Net",
+        "Functions",
+        "Service Bus",
+        "APIM"
+      ],
+      "responsibilty": "Architected back-end APIs in Azure using Azure SQL Server, Functions, Azure App Service, Azure API Manager (APIM) using .Net"
+    },
+    {
+      "techstack": [
+        "JWT",
+        "Functions"
+      ],
+      "responsibilty": "Developed security authentication transfer using JWT tokens with Azure Microservice Functions for Login and customer"
+    },
+    {
+      "techstack": [
+        "C#"
+      ],
+      "responsibilty": "Designed and developed C# .Net Core 3.1 Web Services to pass Sql Server generated JSON data mobile phone app and"
+    },
+    {
+      "techstack": [
+        "C#"
+      ],
+      "responsibilty": "Azure Dev-ops administrator to create CI/CD builds and pipelines of projects and their publishing."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "companyId": 9,
+  "id" : "HSO.10",
+  "company": "HSO",
+  "duration": "January 2024 - Present",
+  "partitionKey": "Contract",
+  "title": "Senior Developer (Contract) - Managed Services",
+  "techstack": [
+    "Azure",
+    "B2C",
+    "BusinessIntelligence",    
+    "C#",
+    "CosmosDB",
+    "ETL",    
+    "EventHub",    
+    ".Net",
+    "Functions",
+    "JWT",    
+    "WebService"
+  ],
+  "responsibilities": [
+    {
+      "techstack": [
+        "Azure",
+        "C#",
+        "CosmosDB",
+        "ETL",
+        "EventHub",
+        "Functions",
+        ".Net",
+        "WebService"
+      ],
+      "responsibilty": "Creation of C# .Net 8 multiple isolated serverless computing ETL services which were triggered by Event hub and pushed contract and billing data into Cosmos DB (as long term access location) for a majority of records pertaining to millions of customer contracts. Wrote corresponding triggers that sent hot data records to Salesforce for active consumer processing. "
+    },
+    {
+      "techstack": [
+        "Azure",
+        "CosmosDB",
+        "JWT",
+        "WebService"
+      ],
+      "responsibilty": "Creation of ASP.Net core Web Services API in C# .Net 8 to provide searches across Cosmos DB containers. Web services implemented security middleware implemented JWT bearer authentication for security. "
+    },    
+    {
+      "techstack": [
+        "Azure",
+        "B2C",
+        "C#",
+        ".Net"
+      ],
+      "responsibilty": "Customized Azure B2C policies to meet the needs of the business and integrated them into the Angular front end and C# .Net back end."
+    },
+    {
+      "techstack": [
+        "Azure",
+        "BusinessIntelligence",
+        "Functions",
+        "WebService"
+      ],
+      "responsibilty": "Diagnose and resolve Azure Managed services issues for multiple worldwide clients. Code modifications and feature creation of serverless functions for worldwide clients within the Azure sphere."
+    }
+  ]
+}
